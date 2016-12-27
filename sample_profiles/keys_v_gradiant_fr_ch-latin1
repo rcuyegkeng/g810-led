@@ -1,5 +1,5 @@
 # Sample profile vertical gradiant with vars and keys
-
+#
 # Vars :
 var raw0 00ffff
 var raw1 960096
@@ -8,13 +8,13 @@ var raw3 300096
 var raw4 000096
 var raw5 003096
 var raw6 006096
-
-
+#
+#
 # Raw 0 :
 g logo $raw0
 g indicators $raw0
 k mute $raw0
-
+#
 # Raw 1 :
 k escape $raw1
 g fkeys $raw1
@@ -25,7 +25,7 @@ k play_pause $raw1
 k stop $raw1
 k prev $raw1
 k next $raw1
-
+#
 # Raw 2 :
 k tilde $raw2
 k 1 $raw2
@@ -48,7 +48,7 @@ k num_lock $raw2
 k num_slash $raw2
 k num_asterisk $raw2
 k num_minus $raw2
-
+#
 # Raw 3 :
 k tab $raw3
 k q $raw3
@@ -70,7 +70,7 @@ k page_down $raw3
 k num7 $raw3
 k num8 $raw3
 k num9 $raw3
-
+#
 # Raw 4 :
 k caps_lock $raw4
 k a $raw4
@@ -90,7 +90,7 @@ k num4 $raw4
 k num5 $raw4
 k num6 $raw4
 k num_plus $raw4
-
+#
 # Raw 5 :
 k shift_left $raw5
 k intl_backslash $raw5
@@ -109,7 +109,7 @@ k top $raw5
 k num1 $raw5
 k num2 $raw5
 k num3 $raw5
-
+#
 # Raw 6 :
 k ctrl_left $raw6
 k win_left $raw6
@@ -125,6 +125,6 @@ k right $raw6
 k num0 $raw6
 k num_period $raw6
 k numenter $raw6
-
+#
 # Commit
 c
